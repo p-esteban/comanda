@@ -1,0 +1,26 @@
+{   
+    "name": "esteban/comanda",
+    "description": "",
+    "authors": [
+        {
+            "name": "esteban",
+
+            "email": "contacto.juanesteban@gmail.com"
+        }
+    ],
+    "require": {
+        "slim/slim": "4.*",
+        "slim/psr7": "^1.2",
+        
+        "illuminate/events": "^7.29",
+        "firebase/php-jwt": "^5.2",
+        "illuminate/database": "^7.29"
+    },
+    "autoload": {
+        "psr-4":{
+            "Config\\":"config/",
+            "App\\":"src/"
+            
+        }
+    }
+}
